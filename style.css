@@ -1,0 +1,80 @@
+body {
+  padding-top: 5rem;
+}
+
+.profile {
+  width: 350px;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 40px;
+  text-align: center;
+}
+
+.social-media-tags {
+  text-align: center;
+  color: #39AECF;
+}
+
+.nav-link {
+  color: #39AECF !important;
+}
+
+a {
+  color: #39AECF;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #015D66;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.intro {
+  text-align: center !important;
+}
+
+.news {
+  clear: both;
+}
+
+.publications {
+  clear: both;
+  margin-top: 20px;
+}
+
+#twitter-logo {
+  width: 18px;
+}
+
+#email-icon {
+  color: #39AECF;
+}
+
+#email-icon {
+  width: 18px;
+  margin: 10px;
+}
+
+#linkedin-icon {
+  width: 18px;
+  margin-right: 5px;
+  padding-bottom: 2px;
+}
+
+#github-icon {
+  width: 18px;
+  margin-right: 5px;
+}
+
+#scholar-icon {
+  width: 18px;
+  margin-right: 5px;
+  padding-bottom: 2px;
+}
