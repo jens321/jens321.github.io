@@ -86,8 +86,8 @@
   <div class="row">
     <ul>
       <li>I recently attended EMNLP 2019 where I presented AllenNLP Interpret, which received <b>Best Demo Award</b>!</li>
-      <li>Demo paper [1] accepted to EMNLP 2019 & NeurIPS 2019</li>
-      <li>Last summer (2019) I was a SWE intern at Microsoft on the Azure Stack team.</li>
+      <li>Demo paper [<a href="https://arxiv.org/abs/1909.09251" target="_blank">1</a>] accepted to EMNLP 2019 & NeurIPS 2019</li>
+      <li>Last summer (2019) I was a SWE intern at Microsoft on the Azure Stack team</li>
     </ul>
   </div>
 
@@ -101,13 +101,27 @@
         Eric Wallace, <b>Jens Tuyls</b>, Junlin Wang, Sanjay Subramanian, Matt Gardner, and Sameer Singh.<br>
         Demo at EMNLP 2019 <b>Best Demo Award</b></br>
         Demo at NeurIPS 2019 <br>
-        An open-source toolkit built on top of AllenNLP that makes it easy to interpret NLP models.
+        An open-source toolkit built on top of AllenNLP that makes it easy to interpret NLP models.<br>
+        <span class="paper-links" id="allennllp-interpret-toggle">Citation</span>
+        <pre id="allennlp-interpret-citation">@inproceedings{Wallace2019AllenNLP,
+            Author = {Eric Wallace and Jens Tuyls and Junlin Wang and Sanjay Subramanian and Matt Gardner and Sameer Singh},
+            Booktitle = {Empirical Methods in Natural Language Processing},                            
+            Year = {2019},
+            Title = {{AllenNLP Interpret}: A Framework for Explaining Predictions of {NLP} Models}}
+        </pre>
       </li>
     </ol>
   </div>
 
 </main><!-- /.container -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+<script>
+  $('#allennlp-interpret-citation').hide()
+  $('#allennllp-interpret-toggle').click(function () {
+    $('#allennlp-interpret-citation').toggle()
+  })
+</script>
+</body>
 </html>
 

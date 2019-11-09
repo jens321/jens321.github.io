@@ -21,12 +21,13 @@ body {
   color: #39AECF !important;
 }
 
-a {
+.paper-links, a {
   color: #39AECF;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-a:hover {
+.paper-links:hover, a:hover {
   text-decoration: none;
   color: #015D66;
 }
@@ -77,4 +78,10 @@ a:hover {
   width: 18px;
   margin-right: 5px;
   padding-bottom: 2px;
+}
+
+#allennlp-interpret-citation {
+  background-color: #E2F2F7;
+  padding: 10px;
+  border-radius: 10px;
 }
