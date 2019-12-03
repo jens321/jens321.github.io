@@ -19,6 +19,11 @@ body {
 
 .nav-link {
   color: #39AECF !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #015D66 !important;
 }
 
 .paper-links, a {
@@ -84,4 +89,16 @@ body {
   background-color: #E2F2F7;
   padding: 10px;
   border-radius: 10px;
+}
+
+#cv-button {
+  background-color: white;
+  color: #39AECF;
+  transition: 0.3s;
+  border-color: #39AECF;
+}
+
+#cv-button:hover {
+  background-color: #39AECF;
+  color: white;
 }
