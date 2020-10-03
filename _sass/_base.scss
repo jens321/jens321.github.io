@@ -285,11 +285,10 @@ blockquote {
   }
 }
 
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
+// about
+.clearfix {
+  font-size: 1.3rem;
+}
 
   &:hover {
     color: var(--global-hover-color);
