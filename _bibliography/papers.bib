@@ -3,9 +3,12 @@
 
 @inproceedings{todo,
   title={Gradient-based Analysis of NLP Models is Manipulable},
-  author={Junlin Wang and Jens Tuyls and Eric Wallace and Sameer Singh},
+  author={Junlin Wang* and Jens Tuyls* and Eric Wallace and Sameer Singh},
   Booktitle={Findings of Empirical Methods in Natural Language Processing},
-  year={2020}
+  year={2020},
+  arxiv={2010.05419},
+  abstract={Gradient-based analysis methods, such as saliency map visualizations and adversarial input perturbations, have found widespread use in interpreting neural NLP models due to their simplicity, flexibility, and most importantly, their faithfulness. In this paper, however, we demonstrate that the gradients of a model are easily manipulable, and thus bring into question the reliability of gradient-based analyses. In particular, we merge the layers of a target model with a Facade that overwhelms the gradients without affecting the predictions. This Facade can be trained to have gradients that are misleading and irrelevant to the task, such as focusing only on the stop words in the input. On a variety of NLP tasks (text classification, NLI, and QA), we show that our method can manipulate numerous gradient-based analysis techniques: saliency maps, input reduction, and adversarial perturbations all identify unimportant or targeted tokens as being highly important.},
+  website={https://ucinlp.github.io/facade/}
 }
 
 @inproceedings{Mooers2020GenerativeMF,
