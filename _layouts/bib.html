@@ -49,7 +49,8 @@
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
+              {% capture last_with_star %}{{ site.scholar.last_name }}{{ "*" }}{% endcapture %}
+              {% if author.last == site.scholar.last_name or author.last == last_with_star %}
                 <em>{{author.first}} {{author.last}}</em>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
