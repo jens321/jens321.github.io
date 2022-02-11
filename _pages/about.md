@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello there! I'm a Computer Science PhD Student at [Princeton University](https://www.princeton.edu/) in the [Princeton NLP](http://nlp.cs.princeton.edu/) group. 
+Hello there! I'm a Computer Science PhD Student at [Princeton University](https://www.princeton.edu/) in the [Princeton NLP](http://nlp.cs.princeton.edu/) group, where I'm advised by Professor [Karthik Narasimhan](https://www.cs.princeton.edu/~karthikn/) 
 
 I'm broadly interested in **Machine Learning**, with specific interests in the intersection of Natural Language Processing and Reinforcement Learning (i.e. language grounding, text-based games, etc.), Interpretability & Robustness (i.e. explanation techniques, adversarial attacks etc.), and AI for Climate.
 
