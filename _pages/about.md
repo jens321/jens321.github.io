@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science PhD Student in the <a href="http://nlp.cs.princeton.edu/">Princeton NLP</a> group.
+subtitle: Computer Science PhD Student (5th year)
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My main research interests lie at the intersection of Natural Language Processing (NLP) and Reinforcement Learning (RL). Prior to this, I have also explored projects in interpretability and AI for Climate. 
+I am currently part of the <a href="http://nlp.cs.princeton.edu/">Princeton NLP</a> group, where I am advised by Professor [Karthik Narasimhan](https://karthikncode.github.io). My main research interests lie at the intersection of Natural Language Processing (NLP) and Reinforcement Learning (RL). Prior to this, I have also explored projects in interpretability and AI for Climate. 
 
 
 **Bio**: I studied Computer Science at [UC Irvine](https://uci.edu), where I was fortunate to work with Professor [Sameer Singh](http://sameersingh.org/). Now, I'm a fourth-year PhD student in the Princeton NLP group. 
