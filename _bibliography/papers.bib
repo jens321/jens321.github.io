@@ -47,7 +47,8 @@ Generative modeling techniques applied on high-resolution climate data for repre
   Booktitle={International Conference on Learning Representations},
   year={2022},
   abstract={Text adventure games present unique challenges to reinforcement learning methods due to their combinatorially large action spaces and sparse rewards. The interplay of these two factors is particularly demanding because large action spaces require extensive exploration, while sparse rewards provide limited feedback. This work proposes to tackle the explore-vs-exploit dilemma using a multi-stage approach that explicitly disentangles these two strategies within each episode. Our algorithm, called eXploit-Then-eXplore (XTX), begins each episode using an exploitation policy that imitates a set of promising trajectories from the past, and then switches over to an exploration policy aimed at discovering novel actions that lead to unseen state spaces. This policy decomposition allows us to combine global de- cisions about which parts of the game space to return to with curiosity-based local exploration in that space, motivated by how a human may approach these games. Our method significantly outperforms prior approaches by 24\% and 10\% average normalized score over 12 games from the Jericho benchmark (Hausknecht et al., 2020) in both deterministic and stochastic settings, respectively. On the game of Zork1, in particular, XTX obtains a score of 103, more than a 2x improvement over prior methods, and pushes past several known bottlenecks in the game that have plagued previous state-of-the-art methods.},
-  arxiv={2201.01251}
+  arxiv={2201.01251},
+  code={https://github.com/princeton-nlp/XTX}
 }
 
 @unpublished{tuyls2023scaling,
@@ -58,4 +59,14 @@ Generative modeling techniques applied on high-resolution climate data for repre
   abstract={Imitation Learning (IL) is one of the most widely used methods in machine learning. Yet, many works find it is often unable to fully recover the underlying expert behavior (Wen et al., 2020; Jacob et al., 2022), even in constrained environ- ments like single-agent games (De Haan et al., 2019; Hambro et al., 2022b). However, none of these works deeply investigate the role of scaling up the model and data size. Inspired by recent work in Natural Language Processing (NLP) (Kaplan et al., 2020; Hoffmann et al., 2022) where “scaling up” has resulted in increasingly more capable LLMs, we investigate whether carefully scaling up model and data size can bring simi- lar improvements in the imitation learning setting for single-agent games. We first demonstrate our findings on a variety of Atari games, and there- after focus on the extremely challenging game of NetHack. In all games, we find that IL loss and mean return scale smoothly with the compute bud- get (FLOPs) and are strongly correlated, resulting in power laws for training compute-optimal IL agents. Finally, we forecast and train several NetHack agents with IL and find they outper- form prior state-of-the-art by 1.5x in all settings. Our work both demonstrates the scaling behavior of imitation learning in a variety of single-agent games, as well as the viability of scaling up cur- rent approaches for increasingly capable agents in NetHack, a game that remains elusively hard for current AI systems.},
   arxiv={2307.09423},
   code={https://github.com/princeton-nlp/il-scaling-in-games}
+}
+
+@inproceedings{zhang2024languageguided,
+  title={Language-guided World Models: A Model-based Approach to {AI} Control},
+  author={Alex L Zhang and Khanh Xuan Nguyen and Jens Tuyls and Albert Lin and Karthik R Narasimhan},
+  booktitle={ACL 2024 Workshop SpLU-RoboNLP},
+  year={2024},
+  url={https://openreview.net/forum?id=zFb0kZjjrj},
+  code={https://github.com/princeton-nlp/lwm/},
+  award={Oral}
 }

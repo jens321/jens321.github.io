@@ -129,6 +129,12 @@
         <div class="periodical">
           {{ periodical | strip }}
         </div>
+        <!-- Award Badge -->
+        {% if entry.award %}
+        <div class="award-badge">
+          <span class="badge" style="background-color: gold;">{{ entry.award }}</span>
+        </div>
+        {% endif %}
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
