@@ -113,7 +113,67 @@
             <!-- _pages/publications.md -->
 <div class="publications">
   <h2 class="year">2024</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="tuyls2023scaling" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Scaling Laws for Imitation Learning in Single-Agent Games</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Jens Tuyls</em>, Dhruv Madeka, Kari Torkkola, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Dean Foster, Karthik Narasimhan, Sham Kakade' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Transactions on Machine Learning Research</em>, 2024
+        </div>
+        <!-- Award Badge -->
+        
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2307.09423" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="https://github.com/princeton-nlp/il-scaling-in-games" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Imitation Learning (IL) is one of the most widely used methods in machine learning. Yet, many works find it is often unable to fully recover the underlying expert behavior (Wen et al., 2020; Jacob et al., 2022), even in constrained environments like single-agent games (De Haan et al., 2019; Hambro et al., 2022b). However, none of these works deeply investigate the role of scaling up the model and data size. Inspired by recent work in Natural Language Processing (NLP) (Kaplan et al., 2020; Hoffmann et al., 2022) where “scaling up” has resulted in increasingly more capable LLMs, we investigate whether carefully scaling up model and data size can bring simi- lar improvements in the imitation learning setting for single-agent games. We first demonstrate our findings on a variety of Atari games, and there- after focus on the extremely challenging game of NetHack. In all games, we find that IL loss and mean return scale smoothly with the compute bud- get (FLOPs) and are strongly correlated, resulting in power laws for training compute-optimal IL agents. Finally, we forecast and train several NetHack agents with IL and find they outperform prior state-of-the-art by 1.5x in all settings. Our work both demonstrates the scaling behavior of imitation learning in a variety of single-agent games, as well as the viability of scaling up cur- rent approaches for increasingly capable agents in NetHack, a game that remains elusively hard for current AI systems.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"></div>
@@ -175,68 +235,11 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="tuyls2023scaling" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Scaling Laws for Imitation Learning in Single-Agent Games</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Jens Tuyls</em>, Dhruv Madeka, Kari Torkkola, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Dean Foster, Karthik Narasimhan, Sham Kakade' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Transactions on Machine Learning Research</em>, 2023
-        </div>
-        <!-- Award Badge -->
-        
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2307.09423" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-            <a href="https://github.com/princeton-nlp/il-scaling-in-games" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Imitation Learning (IL) is one of the most widely used methods in machine learning. Yet, many works find it is often unable to fully recover the underlying expert behavior (Wen et al., 2020; Jacob et al., 2022), even in constrained environments like single-agent games (De Haan et al., 2019; Hambro et al., 2022b). However, none of these works deeply investigate the role of scaling up the model and data size. Inspired by recent work in Natural Language Processing (NLP) (Kaplan et al., 2020; Hoffmann et al., 2022) where “scaling up” has resulted in increasingly more capable LLMs, we investigate whether carefully scaling up model and data size can bring simi- lar improvements in the imitation learning setting for single-agent games. We first demonstrate our findings on a variety of Atari games, and there- after focus on the extremely challenging game of NetHack. In all games, we find that IL loss and mean return scale smoothly with the compute bud- get (FLOPs) and are strongly correlated, resulting in power laws for training compute-optimal IL agents. Finally, we forecast and train several NetHack agents with IL and find they outperform prior state-of-the-art by 1.5x in all settings. Our work both demonstrates the scaling behavior of imitation learning in a variety of single-agent games, as well as the viability of scaling up cur- rent approaches for increasingly capable agents in NetHack, a game that remains elusively hard for current AI systems.</p>
-          </div>
-        </div>
-      </div>
-</li></ol>
+  <ol class="bibliography"></ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography"><li>
