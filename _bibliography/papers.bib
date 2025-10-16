@@ -71,15 +71,24 @@ Generative modeling techniques applied on high-resolution climate data for repre
   abstract={This paper introduces the concept of Language- Guided World Models (LWMs)—probabilistic models that can simulate environments by reading texts. Agents equipped with these models provide humans with more extensive and efficient control, allowing them to simultaneously alter agent behaviors in multiple tasks via natural verbal communication. In this work, we take initial steps in developing robust LWMs that can generalize to compositionally novel language descriptions. We design a challenging world modeling benchmark based on the game of MESSENGER (Hanjie et al., 2021), featuring evaluation settings that require varying degrees of compositional generalization. Our exper- iments reveal the lack of generalizability of the state-of-the-art Transformer model, as it offers marginal improvements in simulation qual- ity over a no-text baseline. We devise a more robust model by fusing the Transformer with the EMMA attention mechanism (Hanjie et al., 2021). Our model substantially outperforms the Transformer and approaches the performance of a model with an oracle semantic parsing and grounding capability. To demonstrate the practicality of this model in improving AI safety and transparency, we simulate a scenario in which the model enables an agent to present plans to a human before execution, and to re- vise plans based on their language feedback.},
   arxiv={2402.01695},
   code={https://github.com/princeton-nlp/lwm/},
-  award={Oral Presentation}
+  award={Oral}
+}
+
+@article{tuyls2025representation,
+  title={Representation-Based Exploration for Language Models: From Test-Time to Post-Training},
+  author={Jens Tuyls and Dylan J. Foster and Akshay Krishnamurthy and Jordan T. Ash},
+  abstract={Reinforcement learning (RL) promises to expand the capabilities of language models, but it is unclear if current RL techniques promote the discovery of novel behaviors, or simply sharpen those already present in the base model. In this paper, we investigate the value of deliberate exploration -- explicitly incentivizing the model to discover novel and diverse behaviors -- and aim to understand how the knowledge in pre-trained models can guide this search. Our main finding is that exploration with a simple, principled, representation-based bonus derived from the pre-trained language model's hidden states significantly improves diversity and pass@k rates -- both for post-training, and in a novel inference-time scaling setting we introduce. For inference-time, exploration with representation-based diversity improves efficiency, consistently improving pass@k rates across a variety of models and reasoning tasks. For example, for Qwen-2.5-14b-Instruct we obtain over 50% improvement in verifier efficiency on almost all tasks. For post-training, we show that integrating this exploration strategy into an RL pipeline improves reasoning performance over that of the initial model and over standard RL post-training. For example, on AIME 2024, our post-trained Qwen-2.5-7b-Instruct's pass@80 matches the pass@256 of GRPO on the same model, demonstrating a 3x improvement in test-time sample efficiency. Overall, our findings suggest that deliberate exploration -- with the right notion of diversity -- is a practical path toward discovery of new behaviors beyond sharpening.},
+  arxiv={2510.11686},
+  year={2025}
 }
 
 @inproceedings{zheng2024misl,
   title={Can a MISL Fly? Analysis and Ingredients for Mutual Information Skill Learning},
   author={Chongyi Zheng* and Jens Tuyls* and Joanne Peng and Benjamin Eysenbach},
-  booktitle={Intrinsically-Motivated and Open-Ended Learning Workshop @NeurIPS2024},
-  year={2024},
+  booktitle={International Conference on Learning Representations},
+  year={2025},
   abstract={Self-supervised learning has the potential of lifting several of the key challenges in reinforcement learning today, such as exploration, representation learning, and reward design. Recent work (METRA) has effectively argued that moving away from mutual information and instead optimizing a certain Wasserstein distance is important for good performance. In this paper, we argue that the benefits seen in that paper can largely be explained within the existing framework of mutual information skill learning (MISL). Our analysis suggests a new MISL method (contrastive successor features) that retains the excellent performance of METRA with fewer moving parts, and highlights connections between skill learning, contrastive representation learning, and successor features. Finally, through careful ablation studies, we provide further insight into some of the key ingredients for both our method and METRA.},
   code={https://github.com/Princeton-RL/contrastive-successor-features},
-  arxiv={2412.08021}
+  arxiv={2412.08021},
+  award={Oral}
 }
