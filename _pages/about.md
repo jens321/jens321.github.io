@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science PhD Student (5th year)
+subtitle: Computer Science PhD Student (final year)
 
 profile:
   align: right
@@ -23,4 +23,4 @@ I am currently part of the <a href="http://nlp.cs.princeton.edu/">Princeton NLP<
 Specifically, my work has explored *(1)* how to build agents that can operate in textual environments, *(2)* how to leverage scaling laws developed in NLP for imitation learning agents, and *(3)* how to build agents that can explore their environments in a principled, self-supervised manner without *any* prior knowledge. Currently, I'm especially excited about building principled algorithms for grounding language and control.
 
 
-**Bio**: I studied Computer Science and Engineering at [UC Irvine](https://uci.edu), where I was fortunate to work with Professor [Sameer Singh](http://sameersingh.org/) on interpretability in NLP, and with Professor [Stephan Mandt](https://www.stephanmandt.com) and Professor [Mike Pritchard](https://sites.ps.uci.edu/pritchard/) on AI for climate. Now, I'm a 5th year PhD student in the Princeton NLP group.
+**Bio**: I studied Computer Science and Engineering at [UC Irvine](https://uci.edu), where I was fortunate to work with Professor [Sameer Singh](http://sameersingh.org/) on interpretability in NLP, and with Professor [Stephan Mandt](https://www.stephanmandt.com) and Professor [Mike Pritchard](https://sites.ps.uci.edu/pritchard/) on AI for climate. Now, I'm a final-year PhD student in the Princeton NLP group.
