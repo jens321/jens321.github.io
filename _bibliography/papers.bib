@@ -92,3 +92,20 @@ Generative modeling techniques applied on high-resolution climate data for repre
   arxiv={2412.08021},
   award={Oral}
 }
+
+@article{ellis2025training,
+  title={Training LLM Agents to Empower Humans},
+  author={Evan Ellis and Vivek Myers and Jens Tuyls and Sergey Levine and Anca Dragan and Benjamin Eysenbach},
+  abstract={Assistive agents should not only take actions on behalf of a human, but also step out of the way and cede control when there are important decisions to be made. However, current methods for building assistive agents, whether via mimicking expert humans or via RL finetuning on an inferred reward, often encourage agents to complete tasks on their own rather than truly assisting the human attain their objectives. Additionally, these methods often require costly explicit human feedback to provide a training signal. We propose a new approach to tuning assistive language models based on maximizing the human's empowerment, their ability to effect desired changes in the environment. Our empowerment-maximizing method, Empower, only requires offline text data, providing a self-supervised method for fine-tuning language models to better assist humans. To study the efficacy of our approach, we conducted an 18-person user study comparing our empowerment assistant with a strong baseline. Participants preferred our assistant 78% of the time (p=0.015), with a 31% higher acceptance rate and 38% fewer suggestions. Additionally, we introduce a new environment for evaluating multi-turn code assistance using simulated humans. Using this environment, we show that agents trained with Empower increase the success rate of a simulated human programmer on challenging coding questions by an average of 192% over an SFT baseline. With this empowerment objective, we provide a framework for useful aligned AI agents at scale using only offline data without the need for any additional human feedback or verifiable rewards.},
+  code={https://github.com/festusev/codegen_empowerment/tree/main},
+  arxiv={2510.13709},
+  year={2025}
+}
+
+@article{paglieri2025learning,
+  title={Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents},
+  author={Davide Paglieri and Bart{\l}omiej Cupia{\l} and Jonathan Cook and Ulyana Piterbarg and Jens Tuyls and Edward Grefenstette and Jakob Nicolaus Foerster and Jack Parker-Holder and Tim Rockt{\"a}schel},
+  abstract={Training large language models (LLMs) to reason via reinforcement learning (RL) significantly improves their problem-solving capabilities. In agentic settings, existing methods like ReAct prompt LLMs to explicitly plan before every action; however, we demonstrate that always planning is computationally expensive and degrades performance on long-horizon tasks, while never planning further limits performance. To address this, we introduce a conceptual framework formalizing dynamic planning for LLM agents, enabling them to flexibly decide when to allocate test-time compute for planning. We propose a simple two-stage training pipeline: (1) supervised fine-tuning on diverse synthetic data to prime models for dynamic planning, and (2) RL to refine this capability in long-horizon environments. Experiments on the Crafter environment show that dynamic planning agents trained with this approach are more sample-efficient and consistently achieve more complex objectives. Additionally, we demonstrate that these agents can be effectively steered by human-written plans, surpassing their independent capabilities. To our knowledge, this work is the first to explore training LLM agents for dynamic test-time compute allocation in sequential decision-making tasks, paving the way for more efficient, adaptive, and controllable agentic systems.},
+  arxiv={2509.03581},
+  year={2025}
+}
