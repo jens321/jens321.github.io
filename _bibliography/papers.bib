@@ -74,12 +74,14 @@ Generative modeling techniques applied on high-resolution climate data for repre
   award={Oral}
 }
 
-@article{tuyls2025representation,
+@inproceedings{tuyls2025representation,
   title={Representation-Based Exploration for Language Models: From Test-Time to Post-Training},
   author={Jens Tuyls and Dylan J. Foster and Akshay Krishnamurthy and Jordan T. Ash},
+  booktitle={International Conference on Learning Representations},
   abstract={Reinforcement learning (RL) promises to expand the capabilities of language models, but it is unclear if current RL techniques promote the discovery of novel behaviors, or simply sharpen those already present in the base model. In this paper, we investigate the value of deliberate exploration -- explicitly incentivizing the model to discover novel and diverse behaviors -- and aim to understand how the knowledge in pre-trained models can guide this search. Our main finding is that exploration with a simple, principled, representation-based bonus derived from the pre-trained language model's hidden states significantly improves diversity and pass@k rates -- both for post-training, and in a novel inference-time scaling setting we introduce. For inference-time, exploration with representation-based diversity improves efficiency, consistently improving pass@k rates across a variety of models and reasoning tasks. For example, for Qwen-2.5-14b-Instruct we obtain over 50% improvement in verifier efficiency on almost all tasks. For post-training, we show that integrating this exploration strategy into an RL pipeline improves reasoning performance over that of the initial model and over standard RL post-training. For example, on AIME 2024, our post-trained Qwen-2.5-7b-Instruct's pass@80 matches the pass@256 of GRPO on the same model, demonstrating a 3x improvement in test-time sample efficiency. Overall, our findings suggest that deliberate exploration -- with the right notion of diversity -- is a practical path toward discovery of new behaviors beyond sharpening.},
   arxiv={2510.11686},
-  year={2025}
+  year={2026},
+  code={https://github.com/verl-project/verl-recipe/tree/main/rep_exp}
 }
 
 @inproceedings{zheng2024misl,
