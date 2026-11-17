@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science PhD Student (final year)
+subtitle: 'Senior Researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a>'
 
 profile:
   align: right
